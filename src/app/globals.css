@@ -15,15 +15,46 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+* {
+  position: relative;
+  scroll-behavior: smooth;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--foreground-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--foreground-rgb));
+  overflow-x: hidden !important;
+  color: black;
+  scroll-behavior: smooth !important;
+}
+
+.dark_button {
+  background-color: black;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.white_button {
+  background-color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.yellow_button {
+  background-color: $primary_color;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 @layer utilities {

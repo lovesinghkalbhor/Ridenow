@@ -1,0 +1,83 @@
+.map {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.map__tabs {
+  //   width: 3rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(236, 236, 236);
+  //   margin-right: 3.5rem;
+  width: 7rem;
+  // max-width: 8rem;
+  border-radius: 0.7rem;
+  padding: 1.5rem 1rem;
+  transition: all;
+  transition-duration: 0.8s;
+
+  span {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    width: 8rem;
+    // max-width: 8rem;
+    border-radius: 0.7rem;
+    padding: 1rem 0.7rem;
+    span {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    // height: 600px;
+  }
+
+  @media (max-width: 640px) {
+    // font-size: 32px;
+    // line-height: 110%;
+    width: 6rem;
+    max-width: 8rem;
+    border-radius: 0.7rem;
+    padding: 1rem 0.7rem;
+    span {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+  @media (max-width: 414px) {
+    // font-size: 32px;
+    // line-height: 110%;
+    width: 6rem;
+    max-width: 8rem;
+    border-radius: 0.7rem;
+    padding: 0.9rem 0.5rem;
+    span {
+      font-size: 10px;
+      font-weight: 600;
+    }
+  }
+}
+.maps__tab__shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.maps__icon {
+  width: 1.8rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+
+  @media (max-width: 768px) {
+    width: 1.6rem;
+
+    // height: 600px;
+  }
+  @media (max-width: 414px) {
+    // font-size: 32px;
+    // line-height: 110%;
+    width: 1.2rem;
+  }
+}
