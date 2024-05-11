@@ -27,8 +27,8 @@ export default function Home_page() {
             <Image
               className={`${styles.hero__image}`}
               src="/bike-image.png"
-              width={300}
-              height={500}
+              width={200}
+              height={200}
             ></Image>
           </div>
 
