@@ -8,7 +8,7 @@ export default function Home_page() {
   return (
     <>
       <div
-        className={`relative overflow-hidden h-screen md:h-auto w-full`}
+        className={`relative overflow-hidden h-max md:h-auto w-full mb:pb-0 pb-20`}
         id="home"
       >
         {/* <Image
@@ -22,7 +22,7 @@ export default function Home_page() {
 
           {/* large screen hero image */}
           <div
-            className={`${styles.hero__image__container} w-full col-span-4 col-start-7 row-span-7 row-start-3 -mr-72   md:block`}
+            className={`${styles.hero__image__container} w-full col-span-4 col-start-7 row-span-7 row-start-3 -mr-72   md:block `}
           >
             <Image
               className={`${styles.hero__image}`}
@@ -69,10 +69,7 @@ export default function Home_page() {
         </div>
       </div>
 
-      <div
-        id="feature"
-        className={`${styles.section} md:container mx-auto md:mt-0 mt-16`}
-      >
+      <div id="feature" className={`${styles.section} md:container mx-auto  `}>
         <div className={styles.section__heading__container}>
           <div>
             <h2 className={styles.section__heading}>

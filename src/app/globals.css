@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: white;
   overflow-x: hidden !important;
   color: black;
   scroll-behavior: smooth !important;

@@ -75,8 +75,8 @@
 }
 @media (max-width: 768px) {
   .hero__image {
-    width: 360px;
-    margin-top: 4rem;
+    width: 340px;
+    margin-top: 5rem;
     top: 250px;
     left: 50%;
     transform: translateX(-50%);
@@ -84,8 +84,8 @@
 }
 @media (max-width: 414px) {
   .hero__image {
-    width: 340px;
-    top: 270px;
+    width: 290px;
+    top: 250px;
   }
 }
 
